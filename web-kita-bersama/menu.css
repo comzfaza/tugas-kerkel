@@ -1,0 +1,35 @@
+header {
+    width: 110%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 170px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+}
+
+.logo {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    padding: 10px 20px;
+}
+
+.navbar a :hover {
+    color: var(--main-color);
+    transition: .4s;
+}
